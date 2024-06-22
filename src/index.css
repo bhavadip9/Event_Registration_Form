@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+}
+
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+.agelabel{
+  display: flex;
+  justify-content: flex-start;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.agecheckbox{
+  padding: 0;
+  width:15px;
+}
+
+
+button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
